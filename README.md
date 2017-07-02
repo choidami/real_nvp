@@ -14,4 +14,6 @@ To train generator and z_classifier:
     load_params_z = False
   3. python2.7 real_nvp_MNIST.py
   
+taesung_real_nvp directory contains modified code from taesung's implementation of Real NVP (https://github.com/taesung89/real-nvp) for MNIST (instead of CIFAR-10). Needs more debugging and it also slow. 
+  
 
