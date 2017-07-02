@@ -8,10 +8,10 @@ real_nvp_MNIST.py containts the code for training the inverse-generator (x -> z)
 The z_classifier is used to optimize z class-conditionally to produce z that has high class probablity p(c|z) for any given class (0-9). The optimized z is passed into the generator to produce images. (example images are in images folder)
 
 To train generator and z_classifier:
-  mkdir checkpoints
-  set the following in "real_nvp_MNIST.py"
+  1. mkdir checkpoints
+  2. set the following in "real_nvp_MNIST.py"
     load_params_gen = False
     load_params_z = False
-  python2.7 real_nvp_MNIST.py
+  3. python2.7 real_nvp_MNIST.py
   
 
